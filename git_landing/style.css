@@ -3,7 +3,7 @@ body {
   }
 
 .container {
-  padding-top: 30px;
+  padding-top: 0px;
 }
   
 h1 {
@@ -12,6 +12,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
+  margin-bottom: 10px;
 }
   
 img {
@@ -19,6 +20,7 @@ img {
   padding: 20px;
   display: block;
   margin: 0 auto;
+  border-radius: 50px;
 }
 
 form {
@@ -37,7 +39,7 @@ form {
   border-radius: 20px;
   box-shadow: 0 6px #2E282A;
 }
-  
+
 .btn a {
     color: white;
   font-family: 'Open Sans', sans-serif;
@@ -50,10 +52,22 @@ form {
 
 .btn:hover {
   box-shadow: 0 4px #2E282A;
-  top: 2px; 
+  top: 2px;
 }
 
 .btn:active {
   box-shadow: none;
-  top: 6px; 
-} 
+  top: 6px;
+}
+
+.container-map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map-container {
+  flex: 1;
+  margin: 0 15px;
+  text-align: center;
+}
